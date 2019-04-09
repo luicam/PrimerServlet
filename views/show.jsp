@@ -1,22 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.util.HashMap" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
     <head>
-        <title>Add new user</title>
+        <title>Primer Servlet</title>
     </head>
 
     <body>
-        <div>
-            <h1>Super app!</h1>
-        </div>
-
-        <div>
-            <%
-                HashMap<String,String> h = (HashMap<String,String>) request.getAttribute("listParam");
-                for(String st : h.keySet()) {
-                    out.println("<p>" + st  + "</p><pre>" + h.get(st) + "</pre>");
-                }
-            %>
-        </div>
+         <h1>Super app!</h1>
+         <c:forEach items="${listParam}" var="entry">
+            <p>Key = ${entry.key}, value = <pre>${entry.value}</pre></p>
+         </c:forEach>
     </body>
 </html>
