@@ -7,8 +7,13 @@
 
     <body>
          <h1>Super app!</h1>
-         <c:forEach items="${listParam}" var="entry">
-            <p>Key = ${entry.key}, value = <pre>${entry.value}</pre></p>
-         </c:forEach>
+         <c:if test="${pattern eq 'greeting'}">
+              <h3>${show}</h3>
+         </c:if>
+         <c:if test="${pattern eq 'all'}">
+           <c:forEach items="${listParam}" var="entry">
+              <p>Key = ${entry.key}, value = <pre>${entry.value}</pre></p>
+           </c:forEach>
+         </c:if>
     </body>
 </html>

@@ -15,6 +15,7 @@
     <servlet-mapping>
         <servlet-name>JavaWebProj</servlet-name>
         <url-pattern>/allparameters</url-pattern>
+        <url-pattern>/greeting</url-pattern>
     </servlet-mapping>
  
 </web-app>
