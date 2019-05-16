@@ -1,0 +1,14 @@
+1. ¿Que te proponias con la creacion del branch?
+Para llevar un mejor control del código. 
+Se crean bifurcaciones del estado del código que crea un nuevo camino de cara a la evolución del código, 
+en paralelo a otras ramas que se puedan generar.
+
+La rama master es la rama "por defecto" cuando creas un repositorio. 
+Crea nuevas ramas durante el desarrollo y fusiónalas a la rama principal cuando termines.
+
+he creado una rama llamada commit_mejoras para implementar lo que se pide en el readme del tp6. (aun pendientes)
+
+2. ¿Has fucionado el/los branchen master?
+De momento no, un unico branch que no defiere del master.
+
+
