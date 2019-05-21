@@ -77,7 +77,7 @@ public class PrimerServlet extends HttpServlet {
     }
 
     public List<News> getting_titles_news() throws IOException, ServletException  {
-    /*
+    
         SyndFeed feed = null;
         List<String> list = new ArrayList<String>();
         List<News> list1 = new ArrayList<News>();
@@ -105,8 +105,8 @@ public class PrimerServlet extends HttpServlet {
   		    break;
                 }
             }
-            return list1; */
-            return null;
+            return list1;
+            //return null;
     }
     public class News {
       public String title;
