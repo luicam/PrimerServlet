@@ -13,6 +13,6 @@ De momento no, un unico branch que no defiere del master.
 
 Ya hemos trbajado con este codigo o con uno muy parecido, devuelve 10 noticias, titulo y descripcion de la noticia de la Vanguardia.
 
-solo he decomentado el codigo.
+solo he descomentado el codigo.
 
 
