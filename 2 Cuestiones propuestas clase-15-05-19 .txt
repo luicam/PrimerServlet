@@ -1,18 +1,54 @@
+24/04/2019
+
+
+Entornos de Desarrollo
+
+TPEv3ED
+
+  - Visto Proyecto github Tp6ED
+
+  - Aclarado lo que se requiere en clase de fecha 15/02/2019
+    
+    Req. 1 ¿Que te proponías con la creación del branch?
+	
+ 	
+    Req. 2 ¿Has fusionado el/los branch en los master?
+
+
 1. ¿Que te proponias con la creacion del branch?
+
 Para llevar un mejor control del código. 
-Se crean bifurcaciones del estado del código que crea un nuevo camino de cara a la evolución del código, 
+
+Se crean bifurcaciones "branchs" del estado del código que crea un nuevo camino de cara a la evolución del código, 
 en paralelo a otras ramas que se puedan generar.
 
-La rama master es la rama "por defecto" cuando creas un repositorio. 
-Crea nuevas ramas durante el desarrollo y fusiónalas a la rama principal cuando termines.
+La rama "master" es la rama por defecto cuando creas un repositorio. 
 
-he creado una rama llamada commit_mejoras para implementar lo que se pide en el readme del tp6. (aun pendientes)
+Puedo crear nuevas ramas durante el desarrollo y fusiónalas a la rama principal cuando termines.
+git checkout -b A1
+git push origin A1
+
+git checkout master
+git merge A1
+
+
+He creado una rama llamada commit_mejoras.
+No he visto la necesidad de hacer merge.
+
 
 2. ¿Has fucionado el/los branchen master?
-De momento no, un unico branch que no defiere del master.
 
-Ya hemos trbajado con este codigo o con uno muy parecido, devuelve 10 noticias, titulo y descripcion de la noticia de la Vanguardia.
+De momento no.
 
-solo he descomentado el codigo.
+Ya hemos trabajado con este codigo, o con uno muy parecido.
+
+El codigo:
+Devuelve 10 noticias, titulo y descripcion de la noticia, la fuente es La Vanguardia.
+
+He descomentado el codigo funcional para ejecutarlo.
 
 
+
+
+
+Nota: ?   [corrigiendo ahora]
